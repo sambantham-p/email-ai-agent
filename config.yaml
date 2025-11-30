@@ -1,0 +1,20 @@
+app:
+  name: "email_ai_agent"
+
+gmail:
+  n_days: 1
+  poll_interval: 30
+  output_dir: "extracted_docs"
+  recipient_email: "annamalai.p.2002@gmail.com"
+
+auth:
+  API_KEY: "AIzaSyCOcFJuPCRnru5pjTHTyJBKjnB50_oDiso"
+  credentials_filename: "credentials.json"
+  token_filename: "token.json"
+  scopes:
+    - "https://www.googleapis.com/auth/gmail.modify"
+    - "https://www.googleapis.com/auth/gmail.send"
+
+processing:
+  from: "annamalai.p.2002@gmail.com"
+  subject: "ASIA COMMODITIES"

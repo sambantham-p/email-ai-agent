@@ -1,0 +1,32 @@
+[2025-11-30 23:17:06] [main] INFO: Starting the main function
+[2025-11-30 23:17:06] [main] INFO: Calling auth file to get credentials
+[2025-11-30 23:17:06] [Auth] INFO: File credentials.json does not exist
+[2025-11-30 23:17:06] [Auth] INFO: Fetching credentials from downloads folder if exists
+[2025-11-30 23:17:06] [Auth] INFO: Fetching credentials from downloads folder if exists
+[2025-11-30 23:17:06] [Auth] INFO: Copied /Users/sambantham/Downloads/client_secret_338954605820-envbg9lquo8pjl2d5mdi59lv3i6u521u.apps.googleusercontent.com (1).json to credentials.json
+[2025-11-30 23:17:06] [main] INFO: Initializing gmail service
+[2025-11-30 23:17:06] [Auth] INFO: Starting gmail authentication.
+[2025-11-30 23:17:06] [Auth] INFO: Starting new OAuth flow. Browser window will open.
+[2025-11-30 23:20:41] [main] INFO: Starting the main function
+[2025-11-30 23:20:41] [main] INFO: Calling auth file to get credentials
+[2025-11-30 23:20:41] [main] INFO: Initializing gmail service
+[2025-11-30 23:20:41] [Auth] INFO: Starting gmail authentication.
+[2025-11-30 23:20:41] [Auth] INFO: Starting new OAuth flow. Browser window will open.
+[2025-11-30 23:20:47] [google_auth_oauthlib.flow] INFO: "GET /?state=M0KiBJU7AD5YzDPCCk9gQ5O4G0OECo&code=4/0Ab32j90ndBO361vtXgzQYko2tGpME1qlUQ8MWgYQMAPzN9duL8QU6vapiINIdJ7QlzO6uA&scope=https://www.googleapis.com/auth/gmail.send%20https://www.googleapis.com/auth/gmail.modify HTTP/1.1" 200 65
+[2025-11-30 23:20:47] [Auth] INFO: Token saved/updated in token.json
+[2025-11-30 23:20:47] [googleapiclient.discovery_cache] INFO: file_cache is only supported with oauth2client<4.0.0
+[2025-11-30 23:20:47] [Auth] INFO: Completed gmail authentication.
+[2025-11-30 23:20:47] [main] ERROR: name 'gmail_poll' is not defined
+[2025-11-30 23:21:20] [main] INFO: Starting the main function
+[2025-11-30 23:21:20] [main] INFO: Calling auth file to get credentials
+[2025-11-30 23:21:20] [main] INFO: Initializing gmail service
+[2025-11-30 23:21:20] [Auth] INFO: Starting gmail authentication.
+[2025-11-30 23:21:20] [googleapiclient.discovery_cache] INFO: file_cache is only supported with oauth2client<4.0.0
+[2025-11-30 23:21:20] [Auth] INFO: Completed gmail authentication.
+[2025-11-30 23:21:20] [Gmail] INFO: Starting gmail polling
+[2025-11-30 23:21:20] [Gmail] INFO: Configuration - n_days: 1, interval: 30s, from: annamalai.p.2002@gmail.com, subject: ASIA COMMODITIES
+[2025-11-30 23:21:20] [Gmail] INFO: Built query: from:annamalai.p.2002@gmail.com subject:ASIA COMMODITIES after:2025/11/29 is:unread
+[2025-11-30 23:21:20] [Gmail] INFO: Fetching emails with query: from:annamalai.p.2002@gmail.com subject:ASIA COMMODITIES after:2025/11/29 is:unread
+[2025-11-30 23:21:22] [Gmail] INFO: No messages found matching the query
+[2025-11-30 23:21:22] [Gmail] INFO: No new emails to process
+[2025-11-30 23:21:22] [Gmail] INFO: Waiting 30 seconds before next poll...
